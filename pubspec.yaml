@@ -1,0 +1,22 @@
+name: halation
+description: "A Flutter package that renders a halation effect — progressive blur, dirty-lens overlay, chromatic aberration and frost — via a custom fragment shader."
+version: 0.0.1
+homepage: https://github.com/HoveredCube/halation_glass
+repository: https://github.com/HoveredCube/halation_glass
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  shaders:
+    - shaders/halation.frag
